@@ -10,9 +10,7 @@
 /public/sitemap.xml
 /storage/*.key
 /vendor
-.env
 .env.backup
-.env.production
 .phpactor.json
 .phpunit.result.cache
 /coverage-html/
@@ -30,7 +28,6 @@ yarn-error.log
 /.github/skills
 /.fleet
 /.idea
-/.vscode
 /.claude/*
 !/.claude/skills
 !/.claude/skills/**
@@ -63,3 +60,4 @@ test-results.xml
 
 # business-review regression ledger is machine-local (~/.claude/business-review/) — never commit it
 .claude/skills/business-review/regressions.json
+config.bat
